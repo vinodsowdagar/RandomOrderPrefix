@@ -1,0 +1,22 @@
+{
+    "name": "vino/module-customorderid",
+    "description": "Set a custom order id",
+    "type": "magento2-module",
+    "license": "OSL-3.0",
+    "authors": [
+        {
+            "email": "v.sowdagar@gmail.com",
+            "name": "Vinod Sowdagar"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Vino\\RandomOrderPrefix\\": ""
+        },
+        "files": [
+            "registration.php"
+        ]
+    }
+}
